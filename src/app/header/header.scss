@@ -1,0 +1,17 @@
+.header {
+    background-color: gray;
+    color: white;
+        display: flex;
+        padding-inline: 16px;
+        padding-block: 8px;
+        width: 100%;
+    li {
+        color: white;
+        display: flex;
+        padding: 6px;
+        &:hover {
+            color: blue;
+            cursor: pointer;
+        }
+    }
+}
